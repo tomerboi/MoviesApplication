@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MoviesApplication</string>
+    <string name="count">Count</string>
+    <string name="firstText">0</string>
+    <string name="black_panther_overview">After the events of Captain America: Civil War, Prince T\'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country\'s new king. However, T\'Challa soon finds that he is challenged for the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda from being dragged into a world war.</string>
+    <string name="black_panther">Black Panther</string>
+    <string name="deadpool">DeadPool</string>
+    <string name="guardians_of_the_galaxy">Guardians Of The Galaxy</string>
+    <string name="interstellar">Interstellar</string>
+    <string name="jurassic_park">Jurassic Park</string>
+    <string name="oceans">Ocean\'s 8</string>
+    <string name="the_meg">The Meg</string>
+    <string name="the_purge">The Purge</string>
+    <string name="thor">Thor</string>
+    <string name="deadpool_overview">A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge.</string>
+    <string name="guardians_of_the_galaxy_overview">After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the "Guardians of the Galaxy" to save the galaxy.</string>
+    <string name="interstellar_overview">A team of explorers travel through a wormhole in space in an attempt to ensure humanity\'s survival.</string>
+    <string name="jurassic_park_overview">Huge advancements in scientific technology have enabled a mogul to create an island full of living dinosaurs. John Hammond has invited four individuals, along with his two grandchildren, to join him at Jurassic Park. But will everything go according to plan? A park employee attempts to steal dinosaur embryos, critical security systems are shut down and it now becomes a race for survival with dinosaurs roaming freely over the island.</string>
+    <string name="oceans_overview">Danny Ocean\'s estranged sister Debbie attempts to pull off the heist of the century at New York City\'s star-studded annual Met Gala. Her first stop is to assemble the perfect all-female crew: Lou, Rose, Daphne Kluger, Nine Ball, Tammy, Amita, and Constan</string>
+    <string name="the_meg_overview">After escaping an attack by what he claims was a 70-foot shark, Jonas Taylor must confront his fears to save those trapped in a sunken submersible.</string>
+    <string name="the_purge_overview">A wealthy family are held hostage for harboring the target of a murderous syndicate during the Purge, a 12-hour period in which any and all crime is legal.</string>
+    <string name="thor_overview">The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.</string>
+</resources>

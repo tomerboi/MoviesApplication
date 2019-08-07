@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/bigavengers"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/avengers_infinity_war_poster"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                />
+            <ImageView
+                android:id="@+id/smallavengers"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintTop_toBottomOf="@id/bigavengers"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:src="@drawable/avengers_infinity_war_poster"
+                />
+
+            <TextView
+                android:id="@+id/pupletext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Avengers: Infinity War"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toRightOf="@id/smallavengers"
+                app:layout_constraintTop_toBottomOf="@id/bigavengers" />
+            <TextView
+                android:id="@+id/boldtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Released: "
+                android:textStyle="bold"
+                app:layout_constraintLeft_toRightOf="@id/smallavengers"
+                app:layout_constraintTop_toBottomOf="@id/pupletext"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="2018-01-01"
+                app:layout_constraintTop_toBottomOf="@id/pupletext"
+                app:layout_constraintLeft_toRightOf="@id/boldtext"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movie Trailer"
+                app:layout_constraintLeft_toRightOf="@id/smallavengers"
+                app:layout_constraintTop_toBottomOf="@id/boldtext"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="OpenTrailer"
+                />
+            <TextView
+                android:id="@+id/overview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/smallavengers"
+                android:layout_marginTop="10dp"
+                android:text="Overview:"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintLeft_toLeftOf="@id/smallavengers"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/overview"
+                app:layout_constraintLeft_toLeftOf="@id/overview"
+                android:text="Avengers: Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the Avengers, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to 2012/'s The Avengers and 2015/'s Avengers: Age of Ultron, and the nineteenth film in the Marvel Cinematic Universe (MCU). It was directed by Anthony and Joe Russo, written by Christopher Markus and Stephen McFeely, and features an ensemble cast including Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Benedict Cumberbatch, Don Cheadle, Tom Holland, Chadwick Boseman, Paul Bettany, Elizabeth Olsen, Anthony Mackie, Sebastian Stan, Danai Gurira, Letitia Wright, Dave Bautista, Zoe Saldana, Josh Brolin, and Chris Pratt. In the film, the Avengers and the Guardians of the Galaxy attempt to prevent Thanos from amassing the all-powerful Infinity Stones in a quest to wipe out half of all life in the universe."/>
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
